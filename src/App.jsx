@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import image1 from "./assets/image1.jpg";
+import image2 from "./assets/image2.jpg";
+import image3 from "./assets/image3.jpg";
 
 function App() {
   const [activeSection, setActiveSection] = useState("");
@@ -177,14 +180,20 @@ function App() {
         <div className="gallery-grid">
           <div className="gallery-item">
             <img
-              src="https://via.placeholder.com/400x300"
-              alt="Oqsaroy view 1"
+              src={image1}
+              alt="image"
             />
           </div>
           <div className="gallery-item">
             <img
-              src="https://via.placeholder.com/400x300"
-              alt="Oqsaroy view 2"
+              src={image2}
+              alt="image"
+            />
+          </div>
+          <div className="gallery-item">
+            <img
+              src={image3}
+              alt=""
             />
           </div>
         </div>
