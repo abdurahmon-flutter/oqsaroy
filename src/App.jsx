@@ -148,7 +148,7 @@ function App() {
         <div className="hero-content">
           <h1>{translations[language].welcome}</h1>
           <p>{translations[language].discover}</p>
-          <button className="cta-button">{translations[language].learnMore}</button>
+          <a href="https://g.co/kgs/Nxm2dfC"><button className="cta-button">{translations[language].learnMore}</button></a>
         </div>
       </section>
 
